@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eef2f3;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 900px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Cores customizadas para as camas */
+.cama-1 { background-color: #3498db !important; border: none !important; }
+.cama-2 { background-color: #e67e22 !important; border: none !important; }
